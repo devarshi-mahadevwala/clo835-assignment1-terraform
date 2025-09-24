@@ -1,0 +1,14 @@
+# Ignore terraform state & caches
+.terraform/
+*.tfstate
+*.tfstate.*
+# Lock file is safe to commit, but ignore if you want
+# .terraform.lock.hcl
+
+# Ignore private key created by Terraform
+clo835_deployer.pem
+
+# Editor files
+.idea/
+.vscode/
+*.swp
